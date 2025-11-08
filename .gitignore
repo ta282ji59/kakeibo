@@ -2,14 +2,17 @@
 # Maven
 # ========================================
 /target/
-!.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
 
 # ========================================
 # IntelliJ IDEA
 # ========================================
 /.idea/
-/*.iml
+**/*.iml
 /out/
+*.ipr
+*.iws
 
 # ========================================
 # Operating System
@@ -26,11 +29,13 @@ Thumbs.db
 # Logs
 # ========================================
 *.log
+logs/
 
 # ========================================
-# Others
+# Build artifacts
 # ========================================
 *.class
 *.jar
 *.war
 *.ear
+
