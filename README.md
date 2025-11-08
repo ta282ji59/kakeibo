@@ -24,5 +24,5 @@ docker run --name kakeibo-mysql \
 ## Reactの起動方法 
 ```bash
 cd frontend
-./mvnw spring-boot:run
+npm run dev
 ```
