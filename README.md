@@ -2,7 +2,8 @@
 
 ## Springの起動方法
 ```bash
- ./mvnw spring-boot:run
+cd backend 
+./mvnw spring-boot:run
 ```
 
 ## dbのセットアップ
@@ -18,5 +19,10 @@ docker run --name kakeibo-mysql \
 -e MYSQL_PASSWORD=${user_password} \
 -p 3306:3306 \
 -d mysql:8.0
+```
 
+## Reactの起動方法 
+```bash
+cd frontend
+./mvnw spring-boot:run
 ```
