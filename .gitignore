@@ -39,3 +39,11 @@ logs/
 *.war
 *.ear
 
+# ========================================
+# Other
+# ========================================
+backend/target/
+backend/.idea/
+frontend/node_modules/
+frontend/dist/
+
